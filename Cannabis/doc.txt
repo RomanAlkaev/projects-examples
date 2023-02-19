@@ -1,0 +1,11 @@
+1) В файле cannabis_to_gp_dag.py ввести адрес почты для рассылки и путь до исполняемого файла
+
+2) В файле main.py задать параметры подключения к БД GreenPlum (указать свою таблицу в БД вместо stg.Cannabis):
+
+    dbname = '<your_dbname>'
+    host = '<hostname>'
+    port = '<port>'
+    user = '<your_login>'
+    password = '<your_password>'
+
+3) Запустить даг
